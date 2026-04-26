@@ -1,0 +1,43 @@
+body {
+font-family: Arial;
+background-color: #f4f4f4;
+text-align: center;
+}
+
+h1 {
+background-color: #333;
+color: white;
+padding: 15px;
+}
+
+.container {
+width: 80%;
+margin: auto;
+}
+
+input {
+padding: 10px;
+margin: 5px;
+width: 200px;
+}
+
+button {
+padding: 10px 15px;
+margin: 5px;
+cursor: pointer;
+background-color: #28a745;
+color: white;
+border: none;
+}
+
+button:hover {
+background-color: #218838;
+}
+
+.load {
+background: white;
+padding: 15px;
+margin: 10px;
+border-radius: 5px;
+box-shadow: 0 0 5px gray;
+}
