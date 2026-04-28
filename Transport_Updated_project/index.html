@@ -1,0 +1,25 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Scrap Transport System</title>
+  <link rel="stylesheet" href="stytle.css">
+</head>
+<body><h1>🚛 Scrap Transport System</h1><!-- Navigation --><button onclick="showSection('factory')">🏭 Seller → Factory</button>
+<button onclick="showSection('transport')">🚛 Seller → Transporter</button>
+
+<!-- ===== Factory Section ===== --><div id="factorySection"><h2>Post Scrap (Seller)</h2>
+<input id="type" placeholder="Scrap Type">
+<input id="weight" placeholder="Weight">
+<input id="location" placeholder="Location">
+<input id="price" placeholder="Expected Price">
+<input id="contact1" placeholder="Contact Number">
+<button onclick="addLoad()">Post Scrap</button><h2>Available Scrap (Factory)</h2>
+<div id="loadList"></div></div><!-- ===== Transport Section ===== --><div id="transportSection" style="display:none;"><h2>Post Transport Request</h2>
+<input id="pickup" placeholder="Pickup Location">
+<input id="drop" placeholder="Drop Location">
+<input id="tweight" placeholder="Weight">
+<input id="material" placeholder="Material">
+<input id="contact2" placeholder="Contact Number">
+<button onclick="addTransport()">Post Transport</button><h2>Transport Requests</h2>
+<div id="transportList"></div></div>
+<script src="app.js"></script></body>
+</html>
